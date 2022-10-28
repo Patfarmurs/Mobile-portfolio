@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+Portfolio set-up Mobile first
 
 > Description the project.
-
+Profetional Portfolio using HTML and CSS
 
 ## Built With
 HTML & CSS
@@ -11,37 +12,23 @@ HTML & CSS
 - Frameworks
 - Technologies used
 VSCode
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Basic html and css
+Git
 ### Setup
-
+Open a terminal or a git bash in the desired directory and run https://github.com/Patfarmurs/Mobile-portfolio 
 ### Install
+GitBush
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Patfurmars
-
-👤 **Author2**
-
+👤 **Author**
+-GitHub: @Patfarmurs
+Twitter: @MukulayengeP
+LinkedIn: @Patrick Mukula
+ 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
