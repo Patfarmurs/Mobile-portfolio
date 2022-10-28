@@ -4,7 +4,7 @@
 Portfolio set-up Mobile first
 
 > Description the project.
-Profetional Portfolio using HTML and CSS
+Professional Portfolio using HTML and CSS
 
 ## Built With
 HTML & CSS
