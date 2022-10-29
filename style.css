@@ -33,7 +33,7 @@ nav span {
 .headline {
   height: auto;
   width: 100%;
-  background-image: url("./img/mobile-hero-image.svg");
+  background-image: url("./img/desktop-hero-image.svg");
   text-align: center;
   background-position: center;
   background-size: cover;
@@ -49,6 +49,7 @@ nav span {
 
 .headline-title {
   color: #172b4d;
+  text-align: center;
   font-weight: 700;
   font-size: 40px;
   margin: 0;
@@ -70,4 +71,104 @@ nav span {
   display: inline-block;
   margin-right: 15px;
   color: #505f79;
+}
+
+.card-container{
+    padding: 0 35px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.project-card{
+    width: 327px;
+    border-radius: 8px;
+    background: #EBF0EE;
+    border: 1px solid #D0D9D4;
+}
+
+.descriptions{
+    position: relative;
+    margin-top: 252px;
+    border-radius: 8px;
+    padding: 16px;
+    height: 222px;
+    background: #FFFFFF;
+}
+
+.card-title{
+    width: 295px;
+    height: 57px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3A4A42;
+}
+
+.grid-container {
+    display: grid;
+    gap: 8px;
+    margin-top: 16px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item{
+    border-radius: 4px;
+    padding: 12px 8px;
+    background: #EBF0EE;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3A4A42;
+}
+
+
+.see-project-btn{
+    padding: 12px;
+    background: #36B37F;
+    border-radius: 4px;
+    position: absolute;
+    width: 122px;
+    left: calc(50% - 122px/2 + 0.5px);
+    bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: transparent;
+    color: #FFFFFF;
+}
+
+.divider{
+  background: #36B37F;
+  height: 4px;
+  border-radius: 5px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.divider-container{
+  margin: 20px 0;
+}
+
+/* on mobile */
+
+@media only screen and (max-width: 768px) {
+    .card-container{
+        grid-template-columns: auto ;
+    }
+
+    .headline{
+      background-image: url("./img/mobile-hero-image.svg");
+    }
 }
